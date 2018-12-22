@@ -1,0 +1,20 @@
+#include "bd.h"
+#include "ui_bd.h"
+
+bd::bd(QWidget *parent) :
+    QDialog(parent),
+    ui(new Ui::bd)
+{
+    ui->setupUi(this);
+}
+void bd::connectar()
+{
+    static QSqlDatabase bancodeDados = QSqlDatabase::addDatabase("QSQLITE");
+    bancodeDados.setDatabaseName("/home/emmanuel/banco_de_dados/loginesenha");
+
+}
+bd::~bd()
+{
+    delete ui;
+}
+

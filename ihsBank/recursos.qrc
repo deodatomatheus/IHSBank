@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>avatar.png</file>
+        <file>avatar-1.png</file>
+        <file>back.png</file>
+        <file>cancel.png</file>
+        <file>edit.png</file>
+        <file>garbage.png</file>
+        <file>logout.png</file>
+        <file>add-3.png</file>
+        <file>database-1.png</file>
+        <file>exit.png</file>
+        <file>success.png</file>
+        <file>user.png</file>
+        <file>add.png</file>
+        <file>edit-1.png</file>
+        <file>login.png</file>
+        <file>switch.png</file>
+        <file>reload.png</file>
+    </qresource>
+    <qresource prefix="/imgs">
+        <file>46715785_2178803462430036_2430381766419152896_n.png</file>
+        <file>47388300_339725040187838_3001942283160387584_n.png</file>
+    </qresource>
+</RCC>
